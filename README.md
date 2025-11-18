@@ -70,6 +70,7 @@ trainer = Trainer(
 trainer.train()
 ```
 
+
 训练好之后你可以在`results/cifar`输出文件夹看到最新的`model-10.pt`权重文件，约550MB，和`sample-10.png`生成的图片,如下所示。
 
 这只是快速训练1小时的效果，如果你训练更久，使用的数据集更大，会获得更好的效果
