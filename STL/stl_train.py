@@ -16,7 +16,7 @@ trainer = Trainer(
     train_lr=1e-4,
     train_num_steps=30000,        #  训练30000步，可调
     ema_decay=0.995,
-    calculate_fid=False,
+    calculate_fid=False,          # 关闭FID，质量略降低，但大幅提升训练速度
     save_and_sample_every=3000,  # 每3000步采样一次，输出图片。可调
     results_folder="./results_stl10")
 
